@@ -7,6 +7,11 @@ public abstract class Bankadmnistraction {
             this.monthsalary = monthsalary;
         }
 
-
+    // Abstract method to display details
+    public abstract void displayDetails();
+    // Concrete method to compute a value based on a parameter
+    public int computeValue(int parameter) {
+        return parameter ;
+    }
 
 
