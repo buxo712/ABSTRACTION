@@ -14,4 +14,10 @@ public abstract class Bankadmnistraction {
         return parameter ;
     }
 
+    // Getters for monthsalary
+    public String getAdmnistractionname() {
+        return admnistractionname;
+    }
+
+
 
