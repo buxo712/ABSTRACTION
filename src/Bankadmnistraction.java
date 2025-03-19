@@ -18,6 +18,9 @@ public abstract class Bankadmnistraction {
     public String getAdmnistractionname() {
         return admnistractionname;
     }
-
+    public int getMonthsalary() {
+        return monthsalary;
+    }
+}
 
 
